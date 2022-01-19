@@ -51,3 +51,12 @@ https://kutia-software-company.github.io/express-typescript-starter
 
 ## Mysql
   https://medium.com/tech-learn-share/docker-mysql-access-denied-for-user-172-17-0-1-using-password-yes-c5eadad582d3
+
+  https://blog.theodo.com/2019/05/an-overview-of-nestjs-typeorm-release-your-first-application-in-less-than-30-minutes/
+  https://docs.leunardo.dev/typescript/05-typeorm
+  https://www.tutorialspoint.com/typeorm/typeorm_migrations.htm
+  https://typeorm.io/#/connection
+  https://github.com/typeorm/typeorm/issues/4068
+  https://gitanswer.com/typeormoptionsfactory-and-migration-run-give-error-during-migration-run-missingdrivererror-wrong-driver-undefined-given-839043640
+  https://stackoverflow.com/questions/70691743/missingdrivererror-while-using-postgres
+  https://stackoverflow.com/questions/64011676/error-no-connection-options-were-found-in-any-orm-configuration-files
