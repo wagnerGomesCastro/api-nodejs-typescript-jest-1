@@ -1,5 +1,5 @@
 {
-  "name": "express-typescript",
+  "name": "api-nodejs-typescript-jest-v1",
   "version": "1.0.0",
   "description": "Express typescript.",
   "scripts": {
@@ -79,7 +79,6 @@
     "ts-node": "^9.1.1",
     "typescript": "^4.4.3"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/kutia-software-company/express-typescript-starter"

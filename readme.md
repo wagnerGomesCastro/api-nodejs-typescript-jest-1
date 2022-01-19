@@ -35,3 +35,19 @@ https://kutia-software-company.github.io/express-typescript-starter
 ### License
 
 [MIT](/LICENSE)
+
+
+
+## Comands Docker
+  - Init Backend API
+    $ cd ./www/backend-api && npm isntall && npm run dev
+  - Init containers
+    $  docker-compose -f ./docker-compose.yml up -d server mysql redis mailhog
+  - Stop Containers
+    $ docker container psdocker stop $(docker ps -aq)
+## Check ports
+  https://linuxhint.com/telnet_specific_port/
+    $ telnet 127.0.0.0.1  3006
+
+## Mysql
+  https://medium.com/tech-learn-share/docker-mysql-access-denied-for-user-172-17-0-1-using-password-yes-c5eadad582d3
