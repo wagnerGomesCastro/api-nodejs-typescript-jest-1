@@ -2,7 +2,11 @@ import path from 'path';
 import * as dotenv from 'dotenv';
 // dotenv.config(); // { path: `.env.${process.env.NODE_ENV}` }
 //dotenv.config({ path: path.join(__dirname, `./.env.${process.env.NODE_ENV}`)});
-dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
+// dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
+console.log(dotenv.config({ path: `.env.${process.env.NODE_ENV}`}))
+
+require('dotenv').config({path: __dirname + `/.env.development`});
+
 console.log(dotenv.config({ path: `.env.${process.env.NODE_ENV}`}))
 
 export function env(key: string, defaultValue: null | string = null): string {

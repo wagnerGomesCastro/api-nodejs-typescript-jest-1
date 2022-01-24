@@ -51,6 +51,7 @@ export class App {
   private async typeOrmCreateConnection() {
     try {
       await createConnection();
+      console.log('Esto conectado com o banco de dados')
     } catch (error) {
       console.log('Caught! Cannot connect to database: ', error);
     }

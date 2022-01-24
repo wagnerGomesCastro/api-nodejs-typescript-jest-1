@@ -11,7 +11,7 @@ services:
             MYSQL_PASSWORD: "${TYPEORM_PASSWORD}"
             MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
         ports:
-            - "${FORWARD_DB_PORT:-3306}:3306"
+            - "${FORWARD_DB_PORT}:3306"
         volumes:
             - "backmysql:/var/lib/mysql"
         networks:
