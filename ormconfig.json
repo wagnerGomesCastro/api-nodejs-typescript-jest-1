@@ -1,12 +1,28 @@
-{
+
+[{
   "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "kutia",
+  "password": "6028201644",
+  "database": "express-typescript",
+  "synchronize": false,
+  "logging": false,
+  "extra": {
+    "insecureAuth": true
+  },
   "entities": [
-    "./src/api/models/*.ts"
+    "./src/api/models/**/*.ts"
   ],
   "migrations": [
     "./src/database/migrations/**/*.ts" 
   ],
+  "subscribers": [
+    "./src/database/subscribers/**/*.ts"
+  ],
   "cli": {
-    "migrationsDir": "./src/database/migrations"
+    "entitiesDir": "./src/api/models/**/*.ts",
+    "migrationsDir": "./src/database/migrations",
+    "subscribersDir": "./src/database/subscribers"
   }
-}
+}]
